@@ -1,0 +1,73 @@
+/* ═══════════════════════════════════════════════════
+   NEXT WEB — contact.css
+═══════════════════════════════════════════════════ */
+
+.contact-section { background: var(--bg); padding-bottom: 100px; }
+
+.contact-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 56px;
+  align-items: start;
+}
+
+/* ── CONTACT INFO ──────────────────────────────────── */
+.contact-info {}
+.contact-items { display: flex; flex-direction: column; gap: 14px; }
+.citem {
+  display: flex; align-items: center; gap: 14px;
+  background: var(--surface); border: 1px solid var(--border);
+  padding: 16px 20px; border-radius: var(--radius);
+  transition: all 0.22s;
+}
+.citem:hover { border-color: var(--gold-brd); box-shadow: var(--shadow); }
+body[dir="ltr"] .citem:hover { transform: translateX(4px); }
+body[dir="rtl"] .citem:hover { transform: translateX(-4px); }
+.citem-icon {
+  width: 44px; height: 44px; border-radius: 12px;
+  background: var(--gold-dim); border: 1px solid var(--gold-brd);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; flex-shrink: 0;
+}
+.citem-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 2px; }
+.citem-val { font-size: 14px; font-weight: 600; }
+
+/* ── CONTACT FORM ──────────────────────────────────── */
+.cform {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+}
+.cform h3 { font-size: 22px; font-weight: 800; margin-bottom: 28px; }
+.frow { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.fgroup { margin-bottom: 18px; display: flex; flex-direction: column; gap: 8px; }
+.fgroup label { font-size: 13px; font-weight: 600; color: var(--muted); }
+.fgroup input,
+.fgroup select,
+.fgroup textarea {
+  background: var(--bg2);
+  border: 1.5px solid var(--border);
+  color: var(--text);
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+  font-family: inherit; font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+  resize: none;
+  appearance: none; -webkit-appearance: none;
+}
+.fgroup input:focus,
+.fgroup select:focus,
+.fgroup textarea:focus { border-color: var(--gold); background: var(--surface); }
+.fgroup input::placeholder,
+.fgroup textarea::placeholder { color: var(--muted); opacity: 0.6; }
+.cform .btn-gold { margin-bottom: 10px; }
+
+@media (max-width: 900px) {
+  .contact-wrap { grid-template-columns: 1fr; }
+}
+@media (max-width: 768px) {
+  .frow { grid-template-columns: 1fr; }
+  .cform { padding: 24px; }
+}
