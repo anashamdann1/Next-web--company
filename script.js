@@ -71,17 +71,71 @@ const TRANSLATIONS = {
       cta: "احصل على عرض سعر مجاني ✦",
     },
     
-    portfolio_page: {
+  portfolio_page: {
       tag: "أعمالنا",
       h: "مشاريع نفخر بها",
       sub: "نتائج حقيقية لعملاء حقيقيين.",
       items: [
-        { e: "🛒", bg: "linear-gradient(135deg,#0f0c29,#302b63)", t: "متجر رونق", ty: "تجارة إلكترونية", tags: ["React", "Stripe"], d: "زيادة المبيعات بنسبة 340% خلال 3 أشهر من الإطلاق.", r: "↑340% مبيعات" },
-        { e: "🏥", bg: "linear-gradient(135deg,#093028,#237a57)", t: "عيادة ميدكير", ty: "موقع شركة", tags: ["WordPress", "SEO"], d: "تضاعف الحجوزات الإلكترونية ثلاث مرات بعد إعادة التصميم.", r: "↑3x حجوزات" },
-        { e: "🏨", bg: "linear-gradient(135deg,#1a0533,#4a1070)", t: "فندق لوكس", ty: "ضيافة", tags: ["Next.js", "CMS"], d: "ارتفاع إيرادات الحجز المباشر بنسبة 220%.", r: "↑220% إيرادات" },
-        { e: "📱", bg: "linear-gradient(135deg,#0a1628,#1e3a6e)", t: "تطبيق فين تك", ty: "تطبيق موبايل", tags: ["React Native", "API"], d: "50,000 مستخدم في الشهر الأول من الإطلاق.", r: "50K مستخدم" },
-        { e: "🍕", bg: "linear-gradient(135deg,#2d0a0a,#7a1a1a)", t: "مطعم بيتزالاند", ty: "موقع مطعم", tags: ["HTML", "CSS"], d: "زيادة الطلبات الإلكترونية بنسبة 180% خلال شهرين.", r: "↑180% طلبات" },
-        { e: "📚", bg: "linear-gradient(135deg,#0a2d1a,#1a5c38)", t: "منصة تعليمية", ty: "منصة تعليم", tags: ["Vue.js", "Node.js"], d: "10,000 طالب مسجّل خلال الأسبوع الأول.", r: "10K طالب" },
+        {
+          e: "🛒",
+          bg: "linear-gradient(135deg,#0f0c29,#302b63)",
+          t: "متجر رونق",
+          ty: "تجارة إلكترونية",
+          tags: ["React", "Stripe"],
+          d: "زيادة المبيعات بنسبة 340% خلال 3 أشهر من الإطلاق.",
+          r: "↑340% مبيعات",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "🏥",
+          bg: "linear-gradient(135deg,#093028,#237a57)",
+          t: "عيادة ميدكير",
+          ty: "موقع شركة",
+          tags: ["WordPress", "SEO"],
+          d: "تضاعف الحجوزات الإلكترونية ثلاث مرات بعد إعادة التصميم.",
+          r: "↑3x حجوزات",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "🏨",
+          bg: "linear-gradient(135deg,#1a0533,#4a1070)",
+          t: "فندق لوكس",
+          ty: "ضيافة",
+          tags: ["Next.js", "CMS"],
+          d: "ارتفاع إيرادات الحجز المباشر بنسبة 220%.",
+          r: "↑220% إيرادات",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "📱",
+          bg: "linear-gradient(135deg,#0a1628,#1e3a6e)",
+          t: "تطبيق فين تك",
+          ty: "تطبيق موبايل",
+          tags: ["React Native", "API"],
+          d: "50,000 مستخدم في الشهر الأول من الإطلاق.",
+          r: "50K مستخدم",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "🍕",
+          bg: "linear-gradient(135deg,#2d0a0a,#7a1a1a)",
+          t: "بيتزالاند",
+          ty: "موقع مطعم",
+          tags: ["HTML", "CSS"],
+          d: "زيادة الطلبات الإلكترونية بنسبة 180% خلال شهرين.",
+          r: "↑180% طلبات",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "📚",
+          bg: "linear-gradient(135deg,#0a2d1a,#1a5c38)",
+          t: "منصة تعليمية",
+          ty: "منصة تعليم",
+          tags: ["Vue.js", "Node.js"],
+          d: "10,000 طالب مسجّل خلال الأسبوع الأول.",
+          r: "10K طالب",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
       ],
     },
     contact_page: {
@@ -174,17 +228,71 @@ const TRANSLATIONS = {
       ],
       cta: "Get a Free Quote ✦",
     },
-    portfolio_page: {
+  portfolio_page: {
       tag: "Our Work",
       h: "Projects We're Proud Of",
       sub: "Real results for real clients.",
       items: [
-        { e: "🛒", bg: "linear-gradient(135deg,#0f0c29,#302b63)", t: "Ronaq Store", ty: "E-commerce", tags: ["React", "Stripe"], d: "Sales increased by 340% within 3 months of launch.", r: "↑340% Sales" },
-        { e: "🏥", bg: "linear-gradient(135deg,#093028,#237a57)", t: "MediCare Clinic", ty: "Business Website", tags: ["WordPress", "SEO"], d: "Online bookings tripled after the redesign.", r: "↑3x Bookings" },
-        { e: "🏨", bg: "linear-gradient(135deg,#1a0533,#4a1070)", t: "LuxStay Hotel", ty: "Hospitality", tags: ["Next.js", "CMS"], d: "Direct booking revenue increased by 220%.", r: "↑220% Revenue" },
-        { e: "📱", bg: "linear-gradient(135deg,#0a1628,#1e3a6e)", t: "FinTech App", ty: "Mobile App", tags: ["React Native", "API"], d: "50,000 users in the first month of launch.", r: "50K Users" },
-        { e: "🍕", bg: "linear-gradient(135deg,#2d0a0a,#7a1a1a)", t: "PizzaLand", ty: "Restaurant Website", tags: ["HTML", "CSS"], d: "Online orders increased by 180% in two months.", r: "↑180% Orders" },
-        { e: "📚", bg: "linear-gradient(135deg,#0a2d1a,#1a5c38)", t: "EduPlatform", ty: "Education Platform", tags: ["Vue.js", "Node.js"], d: "10,000 students enrolled in the first week.", r: "10K Students" },
+        {
+          e: "🛒",
+          bg: "linear-gradient(135deg,#0f0c29,#302b63)",
+          t: "Ronaq Store",
+          ty: "E-commerce",
+          tags: ["React", "Stripe"],
+          d: "Sales increased by 340% within 3 months of launch.",
+          r: "↑340% Sales",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "🏥",
+          bg: "linear-gradient(135deg,#093028,#237a57)",
+          t: "MediCare Clinic",
+          ty: "Business Website",
+          tags: ["WordPress", "SEO"],
+          d: "Online bookings tripled after the redesign.",
+          r: "↑3x Bookings",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "🏨",
+          bg: "linear-gradient(135deg,#1a0533,#4a1070)",
+          t: "LuxStay Hotel",
+          ty: "Hospitality",
+          tags: ["Next.js", "CMS"],
+          d: "Direct booking revenue increased by 220%.",
+          r: "↑220% Revenue",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "📱",
+          bg: "linear-gradient(135deg,#0a1628,#1e3a6e)",
+          t: "FinTech App",
+          ty: "Mobile App",
+          tags: ["React Native", "API"],
+          d: "50,000 users in the first month.",
+          r: "50K Users",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "🍕",
+          bg: "linear-gradient(135deg,#2d0a0a,#7a1a1a)",
+          t: "PizzaLand",
+          ty: "Restaurant Website",
+          tags: ["HTML", "CSS"],
+          d: "Online orders increased by 180%.",
+          r: "↑180% Orders",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
+        {
+          e: "📚",
+          bg: "linear-gradient(135deg,#0a2d1a,#1a5c38)",
+          t: "EduPlatform",
+          ty: "Education Platform",
+          tags: ["Vue.js", "Node.js"],
+          d: "10,000 students in first week.",
+          r: "10K Students",
+          url: "https://anashamdann1.github.io/GRAND-AURUM-Hotel/"
+        },
       ],
     },
     contact_page: {
@@ -349,19 +457,22 @@ function renderHome(el, t, lang) {
           <h2>${lang==="ar"?"بعض أعمالنا":"Some of Our Work"}</h2>
         </div>
 
-        <div class="portfolio-grid">
-          ${t.portfolio_page.items.slice(0,3).map(item => `
-            <div class="port-card">
-              <div class="port-thumb" style="background:${item.bg}">
-                <span>${item.e}</span>
-              </div>
-              <div class="port-body">
-                <h3>${item.t}</h3>
-                <p>${item.d}</p>
-              </div>
-            </div>
-          `).join("")}
-        </div>
+       <div class="portfolio-grid">
+  ${t.portfolio_page.items.slice(0,3).map(item => `
+    <a href="${item.url}" target="_blank" rel="noopener" class="port-card">
+
+      <div class="port-thumb" style="background:${item.bg}">
+        <span>${item.e}</span>
+      </div>
+
+      <div class="port-body">
+        <h3>${item.t}</h3>
+        <p>${item.d}</p>
+      </div>
+
+    </a>
+  `).join("")}
+</div>
 
         <div style="text-align:center;margin-top:20px;">
           <a href="portfolio.html" class="btn btn-outline">
@@ -422,6 +533,7 @@ function renderServices(el, t, lang) {
 // ── RENDER PORTFOLIO ─────────────────────────────────
 function renderPortfolio(el, t, lang) {
   const p = t.portfolio_page;
+
   el.innerHTML = `
     <section class="inner-page-hero">
       <div class="container">
@@ -432,29 +544,43 @@ function renderPortfolio(el, t, lang) {
         </div>
       </div>
     </section>
+
     <section class="portfolio-full">
       <div class="container">
         <div class="portfolio-grid">
+
           ${p.items.map((item,i) => `
-            <div class="port-card fi fi-d${i%3+1}">
+            <a href="${item.url}" target="_blank" rel="noopener"
+               class="port-card fi fi-d${i%3+1}">
+
               <div class="port-thumb" style="background:${item.bg}">
                 <span class="port-emoji">${item.e}</span>
                 <div class="port-result">${item.r}</div>
               </div>
+
               <div class="port-body">
                 <div class="port-type">${item.ty}</div>
+
                 <div class="port-tags">
                   ${item.tags.map(tag => `<span class="port-tag">${tag}</span>`).join("")}
                 </div>
+
                 <h3>${item.t}</h3>
                 <p>${item.d}</p>
-                <a href="#" class="port-link">${lang==="ar"?"عرض المشروع →":"View Project →"}</a>
+
+                <div class="port-link">
+                  ${lang==="ar"?"عرض المشروع →":"View Project →"}
+                </div>
               </div>
-            </div>`).join("")}
+
+            </a>
+          `).join("")}
+
         </div>
       </div>
     </section>
   `;
+
   initFadeObserver();
 }
 
